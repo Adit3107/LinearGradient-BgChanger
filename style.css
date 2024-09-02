@@ -1,0 +1,69 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+:root{
+    --color: brown;
+}
+h1{
+    font-size: 60px;
+    color: #111;
+    font-weight: 100;
+    font-family: "New Amsterdam", sans-serif;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right, rgb(92, 145, 229), rgb(152, 63, 198));
+        
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#myButton{
+    border-radius: 20px;
+    background-color: var(--color);
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    margin-top: 30px;
+    cursor: pointer;
+}
+#myButton2{
+    border-radius: 20px;
+    background-color: wheat;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    margin-top: 30px;
+    cursor: pointer;
+}
+#myButton:hover{
+    background-color: gainsboro;
+}
+#myButton2:hover{
+    background-color: gainsboro;
+}
+section{
+    margin-top: 10%;
+}
+fieldset{
+    margin-top: 20px;
+    cursor: pointer;
+}
+fieldset:hover{
+    background-color: lightcyan;
+    opacity: 0.5;
+}
+.copyCode{
+    margin-top: 10px;
+    height: 30px;
+}
+h3{
+    margin-top: 30px;
+}
+.but{
+    margin-left: 60px;
+}
+
